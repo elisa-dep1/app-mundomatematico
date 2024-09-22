@@ -8,7 +8,7 @@ class RegisterScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Nuevo usuario'),
+        title: const Text('Nuevo usuariou'),
       ),
       body: const _RegisterView(),
     );
