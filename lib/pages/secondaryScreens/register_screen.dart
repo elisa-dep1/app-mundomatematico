@@ -20,6 +20,29 @@ class _RegisterView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: SingleChildScrollView(
+        child: Column(
+          children: [
+            const FlutterLogo(size: 100),
+            TextFormField(),
+            TextFormField(),
+            TextFormField(),
+            const SizedBox(
+              height: 20,
+            ),
+            FilledButton.tonalIcon(
+              onPressed: () {},
+              icon: const Icon(Icons.save),
+              label: const Text('Crear user'),
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
