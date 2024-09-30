@@ -1,3 +1,4 @@
+import 'package:app_videojuego/components/custom_text_form_field.dart';
 import 'package:flutter/material.dart';
 
 class RegisterScreen extends StatelessWidget {
@@ -20,28 +21,35 @@ class _RegisterView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
+    return const Padding(
+      padding: EdgeInsets.all(8.0),
       child: SingleChildScrollView(
         child: Column(
-          children: [
-            const FlutterLogo(size: 100),
-            TextFormField(),
-            TextFormField(),
-            TextFormField(),
-            const SizedBox(
-              height: 20,
-            ),
-            FilledButton.tonalIcon(
-              onPressed: () {},
-              icon: const Icon(Icons.save),
-              label: const Text('Crear user'),
-            ),
-            const SizedBox(
-              height: 20,
-            ),
-          ],
+          children: [FlutterLogo(size: 100), _RegisterForm()],
         ),
+      ),
+    );
+  }
+}
+
+class _RegisterForm extends StatelessWidget {
+  const _RegisterForm();
+
+  @override
+  Widget build(BuildContext context) {
+    return Form(
+      child: Column(
+        children: [
+          const CustomTextFormField(),
+          const SizedBox(
+            height: 20,
+          ),
+          FilledButton.tonalIcon(
+            onPressed: () {},
+            icon: const Icon(Icons.save),
+            label: const Text('Crear user'),
+          ),
+        ],
       ),
     );
   }
