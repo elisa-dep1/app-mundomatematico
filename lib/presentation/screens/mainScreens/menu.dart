@@ -1,5 +1,5 @@
-import 'package:app_videojuego/pages/mainscreens/home.dart';
-import 'package:app_videojuego/pages/mainscreens/user_config.dart';
+import 'package:app_videojuego/presentation/screens/mainScreens/home.dart';
+import 'package:app_videojuego/presentation/screens/mainScreens/user_config.dart';
 import 'package:flutter/material.dart';
 
 class Menu extends StatefulWidget {

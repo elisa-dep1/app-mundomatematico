@@ -1,7 +1,6 @@
 import 'package:app_videojuego/config/theme/app_theme.dart';
-
-import 'package:app_videojuego/pages/mainscreens/menu.dart';
-import 'package:app_videojuego/pages/mainscreens/login.dart';
+import 'package:app_videojuego/presentation/screens/mainScreens/login.dart';
+import 'package:app_videojuego/presentation/screens/mainScreens/menu.dart';
 import 'package:app_videojuego/presentation/screens/secondaryScreens/learning.dart';
 import 'package:app_videojuego/presentation/screens/secondaryScreens/practice.dart';
 import 'package:app_videojuego/presentation/screens/secondaryScreens/quizzes.dart';
