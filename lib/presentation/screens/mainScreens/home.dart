@@ -1,7 +1,8 @@
 import 'package:app_videojuego/components/buttonOpcions.dart';
-import 'package:app_videojuego/pages/secondaryScreens/learning.dart';
-import 'package:app_videojuego/pages/secondaryScreens/practice.dart';
-import 'package:app_videojuego/pages/secondaryScreens/quizzes.dart';
+import 'package:app_videojuego/presentation/screens/secondaryScreens/learning.dart';
+import 'package:app_videojuego/presentation/screens/secondaryScreens/practice.dart';
+import 'package:app_videojuego/presentation/screens/secondaryScreens/quizzes.dart';
+
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {

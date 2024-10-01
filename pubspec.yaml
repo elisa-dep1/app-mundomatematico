@@ -32,6 +32,7 @@ dependencies:
   flame: ^1.19.0
   flutter:
     sdk: flutter
+  flutter_bloc: ^8.1.6
   flutter_form_builder: ^9.4.1
   form_builder_validators: ^11.0.0
 
@@ -75,4 +76,3 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
-

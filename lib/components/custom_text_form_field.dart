@@ -7,6 +7,7 @@ class CustomTextFormField extends StatelessWidget {
   final Function(String)? onChanged;
   final String? Function(String?)? validator;
   final bool obscureText;
+  final Icon? icon;
 
   const CustomTextFormField(
       {super.key,
@@ -15,7 +16,8 @@ class CustomTextFormField extends StatelessWidget {
       this.errorMessage,
       this.onChanged,
       this.validator,
-      this.obscureText = false});
+      this.obscureText = false,
+      this.icon});
 
   @override
   Widget build(BuildContext context) {
@@ -38,9 +40,10 @@ class CustomTextFormField extends StatelessWidget {
           focusedErrorBorder: border.copyWith(
             borderSide: BorderSide(color: Colors.red.shade800),
           ),
-          isDense: true,
           label: label != null ? Text(label!) : null,
           hintText: hintText,
+          suffixIcon: icon,
+          suffixIconColor: colors.primary,
           errorText: errorMessage,
           focusColor: colors.primary),
     );
