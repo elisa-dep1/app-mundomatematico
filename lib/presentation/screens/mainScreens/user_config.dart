@@ -1,7 +1,9 @@
+import 'package:app_videojuego/components/button.dart';
 import 'package:app_videojuego/components/buttonOpcions.dart';
 import 'package:app_videojuego/components/modal_configuration.dart';
 
 import 'package:app_videojuego/components/modal_information.dart';
+import 'package:app_videojuego/presentation/screens/mainScreens/login.dart';
 import 'package:flutter/material.dart';
 
 class UserConfig extends StatefulWidget {
@@ -50,6 +52,18 @@ class _UserState extends State<UserConfig> {
                     );
                   },
                 ),
+                const SizedBox(
+                  height: 20,
+                ),
+                Button(
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const Login()),
+                      );
+                    },
+                    title: 'Cerrar sesión',
+                    color: const Color.fromARGB(255, 254, 100, 213))
               ],
             ),
           ],

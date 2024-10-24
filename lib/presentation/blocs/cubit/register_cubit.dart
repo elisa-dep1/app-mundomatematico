@@ -3,6 +3,24 @@ import 'package:equatable/equatable.dart';
 
 part 'register_state.dart';
 
-class RegisterCubit extends Cubit<RegisterState> {
-  RegisterCubit() : super(RegisterInitial());
+class RegisterCubit extends Cubit<RegisterFormState> {
+  RegisterCubit() : super(const RegisterFormState());
+
+  void usernameChanged(String value) {
+    emit(state.copyWith(
+      username: value,
+    ));
+  }
+
+  void emailChanged(String value) {
+    emit(state.copyWith(
+      username: value,
+    ));
+  }
+
+  void passwordChanged(String value) {
+    emit(state.copyWith(
+      username: value,
+    ));
+  }
 }

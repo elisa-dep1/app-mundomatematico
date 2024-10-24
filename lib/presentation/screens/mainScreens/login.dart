@@ -47,9 +47,12 @@ class _LoginState extends State<Login> {
                                                       const RegisterScreen()),
                                             );
                                           },
-                                          title: 'Hola',
+                                          title: 'Registrarse',
                                           color: const Color.fromARGB(
-                                              159, 9, 220, 220)),
+                                              255, 9, 220, 220)),
+                                      const SizedBox(
+                                        height: 20,
+                                      ),
                                       Button(
                                           onPressed: () {
                                             Navigator.push(
@@ -59,9 +62,9 @@ class _LoginState extends State<Login> {
                                                       const Menu()),
                                             );
                                           },
-                                          title: 'entrar',
+                                          title: 'Ingresar',
                                           color: const Color.fromARGB(
-                                              159, 9, 220, 220))
+                                              255, 9, 220, 220))
                                     ]))))))));
   }
 }
