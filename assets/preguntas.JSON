@@ -1,0 +1,236 @@
+[
+  {
+      "question": "Compara estos dos números: 5 - 10",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "<"
+  },
+  {
+      "question": "Compara estos dos números: 20 - 15",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": ">"
+  },
+  {
+      "question": "Compara estos dos números: 30 - 30",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "="
+  },
+  {
+      "question": "Compara estos dos números: 45 - 60",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "<"
+  },
+  {
+      "question": "Compara estos dos números: 90 - 75",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": ">"
+  },
+  {
+      "question": "Compara estos dos números: 100 - 100",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "="
+  },
+  {
+      "question": "Compara estos dos números: 25 - 50",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "<"
+  },
+  {
+      "question": "Compara estos dos números: 70 - 65",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": ">"
+  },
+  {
+      "question": "Compara estos dos números: 85 - 90",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "<"
+  },
+  {
+      "question": "Compara estos dos números: 40 - 40",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "="
+  },
+  {
+      "question": "Compara estos dos números: 10 - 20",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "<"
+  },
+  {
+      "question": "Compara estos dos números: 60 - 50",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": ">"
+  },
+  {
+      "question": "Compara estos dos números: 35 - 35",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "="
+  },
+  {
+      "question": "Compara estos dos números: 55 - 80",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "<"
+  },
+  {
+      "question": "Compara estos dos números: 75 - 25",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": ">"
+  },
+  {
+      "question": "Compara estos dos números: 20 - 25",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "<"
+  },
+  {
+      "question": "Compara estos dos números: 30 - 20",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": ">"
+  },
+  {
+      "question": "Compara estos dos números: 12 - 18",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "<"
+  },
+  {
+      "question": "Compara estos dos números: 22 - 22",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "="
+  },
+  {
+      "question": "Compara estos dos números: 80 - 70",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": ">"
+  },
+  {
+      "question": "Compara estos dos números: 5 - 15",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "<"
+  },
+  {
+      "question": "Compara estos dos números: 90 - 95",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "<"
+  },
+  {
+      "question": "Compara estos dos números: 65 - 40",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": ">"
+  },
+  {
+      "question": "Compara estos dos números: 33 - 45",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "<"
+  },
+  {
+      "question": "Compara estos dos números: 47 - 47",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "="
+  },
+  {
+      "question": "52  y 55",
+      "options": [
+          {"symbol": "<", "text": "Menor que"},
+          {"symbol": "=", "text": "Igual que"},
+          {"symbol": ">", "text": "Mayor que"}
+      ],
+      "correct_answer": "<"
+  }
+]
